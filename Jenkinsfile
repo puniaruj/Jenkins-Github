@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building the application...'
-                // Yahan Maven ya koi aur build tool use kar sakta hai
+                
             }
         }
 
