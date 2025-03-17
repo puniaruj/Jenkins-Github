@@ -12,7 +12,7 @@ pipeline {
         stage('Unit & Integration Tests') {
             steps {
                 echo 'Running unit and integration tests...'
-                // Yahan JUnit, Selenium ya koi aur testing tool use kar sakta hai
+                
             }
         }
 
