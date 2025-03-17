@@ -5,28 +5,28 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building the application...'
-                
+                // Yahan build command add kar
             }
         }
 
         stage('Unit & Integration Tests') {
             steps {
                 echo 'Running unit and integration tests...'
-                
+                // Yahan JUnit, Selenium ya koi aur testing tool use kar
             }
         }
 
         stage('Code Analysis') {
             steps {
                 echo 'Running code analysis...'
-                
+                // Yahan SonarQube ya koi aur analysis tool use kar
             }
         }
 
         stage('Security Scan') {
             steps {
                 echo 'Performing security scan...'
-                
+                // Yahan OWASP Dependency-Check ya koi aur tool use kar
             }
         }
 
