@@ -26,7 +26,7 @@ pipeline {
         stage('Security Scan') {
             steps {
                 echo 'Performing security scan...'
-                // Yahan OWASP Dependency-Check ya koi aur tool use kar sakta hai
+                
             }
         }
 
