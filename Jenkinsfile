@@ -19,7 +19,7 @@ pipeline {
         stage('Code Analysis') {
             steps {
                 echo 'Running code analysis...'
-                // Yahan SonarQube ya koi aur analysis tool use kar sakta hai
+                
             }
         }
 
